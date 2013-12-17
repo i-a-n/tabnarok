@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Tabnarok Stats</title>
+        <style>
+            body {
+                background-color: #fff;
+                font-family: "Helvetica Neue", Helvetica, sans-serif;
+                font-size: 13px;
+                line-height: 140%;
+                font-color: #444;
+                padding: 10px;
+                min-width: 220px;
+            }
+            .statsList {
+                padding: 0;
+                list-style: none;
+                line-height: 44px;
+            }
+            .statsList li {
+                font-weight: 200;
+                margin-bottom: 10px;
+            }
+            .statsList li em {
+                font-style: normal;
+                font-weight: 100;
+                font-size: 48px;
+                vertical-align: middle;
+            }
+        </style>
+        <script src="jquery-1.10.2.min.js"></script>
+        <script src="tabnarok.js"></script>
+    </head>
+    <body>
+        <ul class="statsList">
+            <li id="tabs--number"><em></em> tabs open across</li>
+            <li id="tabs--windows"><em></em> window</li>
+            <li id="tabs--pinned"><em></em> tabs pinned</li>
+        </ul>
+    </body>
+</html>
+
